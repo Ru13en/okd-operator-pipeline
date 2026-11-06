@@ -705,3 +705,47 @@
 	path = secondary-scheduler/operator
 	url = https://github.com/openshift/secondary-scheduler-operator.git
 	branch = release-5.0
+[submodule "pipelines/operator"]
+	path = pipelines/operator
+	url = https://github.com/openshift-pipelines/operator.git
+	branch = release-v1.24.x
+[submodule "pipelines/tektoncd-pipeline"]
+	path = pipelines/tektoncd-pipeline
+	url = https://github.com/openshift-pipelines/tektoncd-pipeline.git
+	branch = release-v1.24.x
+[submodule "pipelines/tektoncd-triggers"]
+	path = pipelines/tektoncd-triggers
+	url = https://github.com/openshift-pipelines/tektoncd-triggers.git
+	branch = release-v1.24.x
+[submodule "pipelines/tektoncd-chains"]
+	path = pipelines/tektoncd-chains
+	url = https://github.com/openshift-pipelines/tektoncd-chains.git
+	branch = release-v1.24.x
+[submodule "pipelines/tektoncd-results"]
+	path = pipelines/tektoncd-results
+	url = https://github.com/openshift-pipelines/tektoncd-results.git
+	branch = release-v1.24.x
+[submodule "pipelines/tektoncd-cli"]
+	path = pipelines/tektoncd-cli
+	url = https://github.com/openshift-pipelines/tektoncd-cli.git
+	branch = release-v1.24.x
+[submodule "pipelines/tektoncd-hub"]
+	path = pipelines/tektoncd-hub
+	url = https://github.com/openshift-pipelines/tektoncd-hub.git
+	branch = main
+[submodule "pipelines/manual-approval-gate"]
+	path = pipelines/manual-approval-gate
+	url = https://github.com/openshift-pipelines/manual-approval-gate.git
+	branch = release-v0.9.2
+[submodule "pipelines/pipelines-as-code"]
+	path = pipelines/pipelines-as-code
+	url = https://github.com/openshift-pipelines/pipelines-as-code.git
+	branch = release-v0.50.2
+[submodule "pipelines/tekton-caches"]
+	path = pipelines/tekton-caches
+	url = https://github.com/openshift-pipelines/tekton-caches.git
+	branch = main
+[submodule "pipelines/opc"]
+	path = pipelines/opc
+	url = https://github.com/openshift-pipelines/opc.git
+	branch = main

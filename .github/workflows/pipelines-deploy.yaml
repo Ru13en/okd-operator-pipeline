@@ -1,0 +1,17 @@
+on:
+  push:
+    branches:
+      - "main"
+    paths:
+      - 'pipelines/**'
+  workflow_dispatch: # Allow manual trigger
+
+name: Deploy OKD Pipelines
+
+jobs:
+  deploy:
+    name: Deploy OKD Pipelines
+    uses: ./.github/workflows/operator-deploy.yaml
+    with:
+      operator: pipelines
+    secrets: inherit
